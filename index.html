@@ -1,10 +1,220 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>你好，GitHub</title>
-  </head>
-  <body>
-    <h1>覺得厲害</h1>
-  </body>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Avi Singh</title>
+  <meta name="description" content="Academic Website">
+  <meta name="author" content="Avi Singh">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/social-circles.min.css">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+ <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#pubs">Publications</a></li>
+
+        </ul>
+      </div>
+    </nav>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="one-half column" style="margin-top: 15%">
+        <img class = "bio-image" src="images/bio-photo.jpg">
+      </div>
+      <div class="one-half column" style="margin-top: 15%">
+        <h2>Avi Singh</h2>
+        <p>PhD Student<br/>
+        <a href="http://bair.berkeley.edu/">Berkeley AI Research</a><br/>
+        <a href="http://www.cs.berkeley.edu">Computer Science</a><br/>
+        <a href="http://www.berkeley.edu">UC Berkeley</a><br/>
+        avisingh at cs dot berkeley dot edu<br/></p>
+
+        <!-- smallcase stuff -->
+        <!--
+        <div class="one-half column" style="margin-top: 15%">
+        <h2>avi singh</h2>
+        <p>phd student<br/>
+        <a href="http://www.cs.berkeley.edu">computer science</a><br/>
+        <a href="http://www.berkeley.edu">uc berkeley</a><br/>
+        -->
+
+        <a class="icon-twitter social-button borderless" href="http://twitter.com/avisingh599"></a>
+        <a class="icon-github social-button borderless" href="http://github.com/avisingh599"></a>
+        <a class="icon-rss social-button borderless" href="http://avisingh599.github.io"></a><br/>
+        <a href="cv.pdf">cv (updated July 2017)</a>
+
+
+        <!--<a class="icon-linkedin social-button borderless" href="http://linkedin.com/in/avisingh599"></a>-->
+
+        <!--
+        <a href="cv.pdf">CV</a>
+        <a href="http://github.com/avisingh599">github</a>
+        <a href="http://avisingh599.github.io">blog</a>
+        <a href="http://twitter.com/avisingh599">twitter</a>-->
+        <!--<a class="button button-primary" href="cv.pdf">CV [PDF]</a>-->
+      </div>
+    </div>
+
+    <!--
+    <div class="row" style="margin-top: 10%">
+      <h6>News</h6>
+      <ul>
+        <li>Paper Accepted to <strong>ICRA 2016</strong>!</li>
+      </ul>
+    </div>
+    -->
+
+    <div class="row" style="margin-top: 10%" id="about">
+      <p> I am a PhD student in Computer Science at UC Berkeley, where I am advised by <a href="https://people.eecs.berkeley.edu/~svlevine/">Prof. Sergey Levine</a>. I am a part of <a href="http://bair.berkeley.edu">Berkeley AI Reseach</a>, and my research interests are in machine learning, robotics, and computer vision.
+      </p>
+      <p> I graduated from <a href="http://www.iitk.ac.in">IIT-Kanpur</a> in 2016 with a Bachelors in Electrical Engineering. In the summer of 2015, I was a research intern at the Robot Learning Lab at Cornell University</a> under <a href="http://cs.stanford.edu/~asaxena">Prof. Ashutosh Saxena</a>, and worked closely with <a href="http://www.asheshjain.org">Ashesh Jain</a> on the <a href="http://www.brain4cars.com">Brain4Cars</a> project. In the summer of 2016, I was a research intern at the Machine Learning and Perception Lab at Virgnia Tech, and worked with <a href="https://filebox.ece.vt.edu/~dbatra/">Prof. Dhruv Batra</a> and <a href="https://filebox.ece.vt.edu/~parikh/">Prof. Devi Parikh</a>. 
+      </p>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row" style="margin-top: 2%" id="preprints">
+      <h4>Preprints</h4>
+    </div>
+
+
+    <div class="row">
+        <div class="three columns" style="margin-top: 2%" >
+          <img class = "paper-image" src="images/events_splash.png">
+        </div>
+        <div class="nine columns" style="margin-top: 2%"><p>
+           Variational Inverse Control with Events: A General Framework for Data-Driven Reward Definition<br>
+          Justin Fu*, <em><b>Avi Singh*</b>, Dibya Ghosh, Larry Yang, Sergey Levine</em><br/>
+          (*) denotes equal contribution<br/>
+          arXiv <a href="https://arxiv.org/abs/1805.11686">[arXiv]</a>
+<!--           <a href="http://dibyaghosh.com/dnc/dnc_video.mp4">[video]</a> 
+ -->          <a href="https://sites.google.com/view/inverse-event">[webpage]</a><br/>
+<!--           Also appeared at NIPS Deep Reinforcement Learning Symposium 2017 <br/>
+ -->        </div>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div class="row" style="margin-top: 2%" id="pubs">
+      <h4>Publications</h4>
+    </div>
+
+    <div class="row">
+        <div class="three columns" style="margin-top: 2%" >
+          <img class = "paper-image" src="images/lobbing.png">
+        </div>
+        <div class="nine columns" style="margin-top: 2%"><p>
+          Divide-and-Conquer Reinforcement Learning <br>
+          Dibya Ghosh, <em><b>Avi Singh</b>, Aravind Rajeswaran, Vikash Kumar, Sergey Levine</em><br/>
+          ICLR 2018 <a href="https://arxiv.org/abs/1711.09874">[arXiv]</a>
+          <a href="http://dibyaghosh.com/dnc/dnc_video.mp4">[video]</a> 
+          <a href="http://dibyaghosh.com/dnc/">[webpage]</a><br/>
+          Also appeared at NIPS Deep Reinforcement Learning Symposium 2017 <br/>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="three columns" style="margin-top: 2%" >
+          <img class = "paper-image" src="images/iccv_teaser.png">
+        </div>
+        <div class="nine columns" style="margin-top: 2%"><p>
+          GPLAC: Generalizing Vision-Based Robotic Skills using Weakly Labeled Images <br>
+          <em><b>Avi Singh</b>, Larry Yang, Sergey Levine</em><br/>
+          ICCV 2017 <a href="https://arxiv.org/abs/1708.02313">[arXiv]</a>
+          <a href="https://www.youtube.com/watch?v=o67N2axrIKc">[video]</a> 
+          <a href="http://people.eecs.berkeley.edu/~avisingh/iccv17/">[webpage]</a><br/>
+          Also appeared at ICML 2017 Workshop on Lifelong Learning <br/>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="three columns" style="margin-top: 2%" >
+          <img class = "paper-image" src="images/vd_teaser_textbar.png">
+        </div>
+        <div class="nine columns" style="margin-top: 2%"><p>
+          Visual Dialog <br>
+          <em>Abhishek Das, Satwik Kottur, Khushi Gupta, <b>Avi Singh</b>, Deshraj Yadav, José M. F. Moura, Devi Parikh, Dhruv Batra</em><br/>
+          CVPR 2017 <font color="red"><b>(Spotlight)</b></font> <a href="https://arxiv.org/abs/1611.08669">[arXiv]</a> <a href="https://github.com/batra-mlp-lab/visdial">[code]</a> <a href="https://vimeo.com/193092429">[video]</a><br/>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="three columns" style="margin-top: 2%" >
+          <img class = "paper-image" src="images/fusionRNN.png">
+        </div>
+        <div class="nine columns" style="margin-top: 2%"><p>
+          Recurrent Neural Networks for Driver Activity Anticipation via Sensory-Fusion Architecture <br>
+          <em>Ashesh Jain, <b>Avi Singh</b>, Hema S Koppula, Shane Soh, Ashutosh Saxena</em><br/>
+          ICRA 2016 <a href="http://arxiv.org/abs/1509.05016">[arXiv]</a> <a href="https://github.com/asheshjain399/RNNexp">[code]</a> <a href="http://brain4cars.com">[website]</a><br/>
+          <a href = "papers/baylearn.pdf"> Earlier version</a> appeared as a full oral at BayLearn 2015 </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="three columns" style="margin-top: 2%" >
+          <img class = "paper-image" src="images/car_setup.jpg">
+        </div>
+        <div class="nine columns" style="margin-top: 2%"><p>
+          Brain4Cars: Car That Knows Before You Do via Sensory-Fusion Deep Learning Architecture <br>
+          <em>Ashesh Jain, Hema S Koppula, Shane Soh, Bharad Raghavan, <b>Avi Singh</b>, Ashutosh Saxena</em><br/>
+          IJRR 2016 (to appear) <a href="http://arxiv.org/abs/1601.00740">[arXiv]</a> <a href="http://www.brain4cars.com">[code + dataset]</a> </p>
+        </div>
+    </div>
+
+    <!--
+    <div class="row">
+        <div class="three columns" style="margin-top: 5%" >
+          <img class = "paper-image" src="images/car_setup.jpg">
+        </div>
+        <div class="nine columns" style="margin-top: 5%"><p>
+          Brain4Cars: Sensory-Fusion Recurrent Neural Models for Driver Activity Anticipation <em>Ashesh Jain, Shane Soh, Bharad Raghvan, Avi Singh, Hema S Koppula, Ashutosh Saxena</em><br/>
+          BayLearn 2015 <font color="red">(Full Oral)</font> <a href="papers/baylearn.pdf">[extended abstract]</a></p>
+        </div>
+    </div>
+  -->
+
+
+  </div>
+
+<br/>
+<br/>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
 </html>
+
